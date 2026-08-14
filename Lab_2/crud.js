@@ -60,6 +60,7 @@ const main = async () => {
     }
     case "2":
       console.log("View Product");
+      await showCart();
       break;
     case "3":
       console.log("Update Product");
