@@ -1,0 +1,17 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "main": "prg7.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon prg7.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "1. go to project folder ( by cd)\r 2. type ```npm intit -y```\r 3.  package.json \r 4. update ```type:module```\r 5. install nodemon ```npm i nodemon -D```\r 6. update script in package.json",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
