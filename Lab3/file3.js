@@ -5,4 +5,4 @@ console.log(`is file: ${fstat.isFile()}`);
 console.log(`is folder: ${fstat.isDirectory()}`);
 console.log(`is syslink: ${fstat.isSymbolicLink()}`);
 console.log(`created at: ${fstat.birthtime}`);
-console.log(`last accessed at: ${fstat.atime}`);
+console.log(`Last accessed at: ${fstat.atime}`);
