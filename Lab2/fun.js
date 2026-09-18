@@ -13,7 +13,7 @@ function main() {
  setImmediate(f2);
   
   f3();
-  console.log("end🥶");
+  console.log("ended🥶");
 }
 main();
 // single threaded mtlb hota h
