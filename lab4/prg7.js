@@ -28,3 +28,8 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(3000, () => console.log("server is running at 3000..."));
+
+//Get : /api/products    =>we get all products present there
+//Get : /api/products/101  => kisi specific chiz ko id ke through get kr rhe
+
+// Post : 
