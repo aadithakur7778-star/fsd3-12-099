@@ -1,5 +1,5 @@
 import http from "http";
-import { addUser, getUsers } from "./users.js";
+import { addUser, getUsers , deleteUser,updateUser,getAllUsers,getUsersById} from "./users.js";
 const server = http.createServer((req, res) => {
   if (req.url === "/api/users" && req.method === "GET") {
     res.end(JSON.stringify(getUsers()));

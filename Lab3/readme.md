@@ -43,6 +43,7 @@ to run in serve we use - npm ( node package module ) start
  5. text/plain -> for plain text file 
 
  #### NOTE :  .gitigore -> this files contains the list of files or folder that is not added to git , these files/ folder will not push on github
+ 
 
 
 
